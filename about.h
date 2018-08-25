@@ -21,7 +21,7 @@ along with this program; if not, see {http://www.gnu.org/licenses/}. */
 #include <QPushButton>
 #include <QTextStream>
 
-#include "utilities.h"
+#include <cprime/utilities.h>
 
 namespace Ui {
 class about;
@@ -38,7 +38,6 @@ public:
 private slots:
     void on_releaseNotes_clicked();
     void on_helpUs_clicked();
-
     void on_coreApps_clicked();
 
 private:
