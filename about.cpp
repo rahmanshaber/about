@@ -23,7 +23,7 @@ about::about(QWidget *parent) : QWidget(parent), ui(new Ui::about)
     ui->setupUi(this);
 
     // set stylesheet from style.qrc
-    setStyleSheet(Utilities::getStylesheetFileContent(":/appStyle/style/About.qss"));
+    setStyleSheet(Utilities::getStylesheetFileContent(Utilities::StyleAppName::AboutStyle));
 
     // set window size
     int x = static_cast<int>(Utilities::screensize().width()  * .8);
@@ -52,10 +52,10 @@ void about::pageClick(QPushButton *btn, int i, QString title)
 void about::on_releaseNotes_clicked()
 {
     pageClick(ui->releaseNotes,1, tr("Relese Notes"));
-//    QFile p(":/docs/ReleaseNotes");
-//    p.open(QFile::ReadOnly | QFile::Text );
-//    QTextStream o(&p);
-//    ui->pgrelesenotes->setText(o.readAll());
+    QFile p(":/docs/ReleaseNotes");
+    p.open(QFile::ReadOnly | QFile::Text );
+    QTextStream o(&p);
+    ui->pgrelesenotes->setText(o.readAll());
 }
 
 void about::on_helpUs_clicked()

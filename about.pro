@@ -10,7 +10,7 @@ TARGET = about
 TEMPLATE = app
 
 # library for theme
-unix:!macx: LIBS += /usr/lib/libcprime.a
+unix:!macx: LIBS += -lcprime
 
 SOURCES += \
     main.cpp \
@@ -23,7 +23,8 @@ FORMS += \
     about.ui
 
 RESOURCES += \
-    icons.qrc
+    icons.qrc \
+    datafiles.qrc
 
 # Disable warnings, enable threading support and c++11 
 CONFIG += thread silent build_all c++11

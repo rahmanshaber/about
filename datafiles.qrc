@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>docs/ReleaseNotes</file>
+        <file>docs/ChangeLog</file>
+    </qresource>
+</RCC>
