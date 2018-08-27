@@ -48,11 +48,10 @@ void about::pageClick(QPushButton *btn, int i, QString title)
     ui->pages->setCurrentIndex(i);
 }
 
-
 void about::on_releaseNotes_clicked()
 {
     pageClick(ui->releaseNotes,1, tr("Relese Notes"));
-    QFile p(":/docs/ReleaseNotes");
+    QFile p("/usr/share/coreapps/docs/ReleaseNotes");
     p.open(QFile::ReadOnly | QFile::Text );
     QTextStream o(&p);
     ui->pgrelesenotes->setText(o.readAll());
