@@ -45,6 +45,7 @@ void about::pageClick(QPushButton *btn, int i, QString title)
         b->setChecked(false);
     btn->setChecked(true);
     ui->selectedsection->setText(title);
+    this->setWindowTitle(title + " - About");
     ui->pages->setCurrentIndex(i);
 }
 
