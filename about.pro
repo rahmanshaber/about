@@ -24,7 +24,6 @@ FORMS += \
 
 RESOURCES += \
     icons.qrc \
-    datafiles.qrc
 
 # Disable warnings, enable threading support and c++11 
 CONFIG += thread silent build_all c++11
