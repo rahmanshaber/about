@@ -4,6 +4,6 @@ Comment=About is for showing CoreApps information.
 Exec=about
 Icon=/usr/share/coreapps/icons/About.svg
 Type=Application
-Categories=Utility;Core;Qt;Documentation;
+Categories=Utility;Qt;Documentation;
 Terminal=false
 StartupNotify=true
