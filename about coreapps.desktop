@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=About CoreApps
+Comment=About is for showing CoreApps information.
+Exec=about
+Icon=/usr/share/coreapps/icons/about.svg
+Type=Application
+Categories=Utility;Qt;Documentation;
+Terminal=false
+StartupNotify=true

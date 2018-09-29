@@ -1,7 +1,7 @@
 # About
 An app of CoreApps family.About is for showing CoreApps information.
 
-<img src="About.png" width="500">
+<img src="about.png" width="500">
 
 ### Download
 

@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="icons.qrc">
-    <normaloff>:/icons/About.svg</normaloff>:/icons/About.svg</iconset>
+    <normaloff>:/icons/about.svg</normaloff>:/icons/about.svg</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <property name="leftMargin">
@@ -96,7 +96,7 @@
         </property>
         <property name="icon">
          <iconset resource="icons.qrc">
-          <normaloff>:/icons/About.svg</normaloff>:/icons/About.svg</iconset>
+          <normaloff>:/icons/about.svg</normaloff>:/icons/about.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
