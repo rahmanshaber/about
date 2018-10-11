@@ -208,7 +208,7 @@
              <string notr="true"/>
             </property>
             <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
+             <enum>QFrame::NoFrame</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Plain</enum>
@@ -266,7 +266,7 @@
              <item row="2" column="0">
               <widget class="QLabel" name="label_10">
                <property name="text">
-                <string>Build with Qt 5.11 ,C++ 11 (GCC 8.1., 64 bit)</string>
+                <string>Build with Qt 5.12 ,C++ 11 (GCC 8.1., 64 bit)</string>
                </property>
                <property name="indent">
                 <number>10</number>
@@ -285,7 +285,7 @@
              </sizepolicy>
             </property>
             <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
+             <enum>QFrame::NoFrame</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
@@ -354,7 +354,7 @@
           <item>
            <widget class="QFrame" name="devlopers">
             <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
+             <enum>QFrame::NoFrame</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Plain</enum>
@@ -394,7 +394,7 @@
           <item>
            <widget class="QFrame" name="others">
             <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
+             <enum>QFrame::NoFrame</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
