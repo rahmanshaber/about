@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 
     startSetup();
 
-    // Set application info
+    // Set application  info
     app.setOrganizationName("CoreBox");
     app.setApplicationName("About");
 
