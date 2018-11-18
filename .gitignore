@@ -1,5 +1,5 @@
 lib*.so*
 .qmake.stash
 Makefile
-.pro.user
+*.pro.user
 update
